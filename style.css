@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/* style.css */
+
+/* Apply Bebas Neue font to the h1 element */
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/* Apply Kanit font to the label and input elements */
+label, input {
+    font-family: 'Kanit', sans-serif;
+}
+
+/* Apply Oswald font to specific elements (adjust as needed) */
+/* For example, you can apply it to the button */
+button {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Apply Skranji font to specific elements (adjust as needed) */
+/* For example, you can apply it to the result container */
+#result-container {
+    font-family: 'Kanit', sans-serif;
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#upload-form {
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    display: block;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#file-name {
+    margin-top: 10px;
+}
+
+#upload-button {
+    margin-top: 20px;
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
